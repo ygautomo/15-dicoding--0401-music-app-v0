@@ -1,0 +1,29 @@
+# /**
+#  * Project: 15 Dicoding -- Back-End Developer- Fundamental Back-End
+#  * Filename: .gitignore.sh
+#  * Course: 15 Dicoding -- Back-End Developer- Fundamental Back-End
+#  * Description: Module 0300 Belajar Fundamental Aplikasi Back-End -- Proyek Pertama
+#  * Description: Module 0301 Belajar Fundamental Aplikasi Back-End -- Proyek Pertama- Proyek Hapi Plugin, Data Validation, dan PostgreSQL
+#  * Description: Module 0302 Belajar Fundamental Aplikasi Back-End -- Proyek Pertama- Kriteria Proyek OpenMusic API versi 1
+#  * Description: Module 0303 Belajar Fundamental Aplikasi Back-End -- Proyek Pertama- Proyek OpenMusic API versi 1 Kirim Submission dan Review
+#  * Directory: D:\06 Training Course\07 JavaScript\15 Dicoding -- Back-End Developer- Fundamental Back-End
+#  * Linux Version:
+#  *  - Ubuntu 20.04.6 LTS (Focal Fossa)
+#  * Reference Link:
+#  *  - https://www.dicoding.com/academies/271/tutorials/17778
+#  *  - https://www.dicoding.com/academies/271/tutorials/17779
+#  *  - https://www.dicoding.com/academies/271/tutorials/17780
+#  * Repository:
+#  *  - 15-dicoding-0401-music-app-v0
+#  * 
+#  * Author: Yugo Gautomo
+#  * Status: Final March 01, 2023
+#  * Version 01
+#  */
+
+# ignore node_modules directories
+node_modules/
+
+# ignore files
+.eslintrc.json
+package.json
