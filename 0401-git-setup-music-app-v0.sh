@@ -34,7 +34,7 @@ echo -e "\nGit setup local repository"
   echo "Step 01 Check installed Git version"
   # if error please refer to Git installation file 'N/A'
   # git -- the stupid content tracker
-  git --version                         # return v16.20.0
+  git --version                         # return 2.28.0.windows.1
 
 # Step 02 Get GitHub account credentials and create/set working repository
   echo "Step 02 Get GitHub account credentials and create/set working repository"
@@ -314,7 +314,7 @@ echo -e "\nGit setup Remote VPS Server local repository"
   echo "Step 11 Check installed Git version"
   # if error please refer to Git installation file 'N/A'
   # git -- the stupid content tracker
-  git --version                         # return v16.20.0
+  git --version                         # return v2.25.1
 
 # Step 12 Check current directory, create & change to working directory
   echo "Step 12 Check current directory, create & change to working directory"
@@ -337,7 +337,7 @@ echo -e "\nGit setup Remote VPS Server local repository"
 # Step 13 (Optional) Clone Git remote repository
   echo "Step 13 (Optional) Clone Git remote repository"
   # git-clone -- Clone a repository into a new directory
-  git clone "https://github.com/$GITHUB_USER/$GITHUB_REPO.git"
+  git clone "https://github.com/{{GitHubUser}}/{{GitHubRepo}}.git"
 
 # Step 14 (Optional) Rename working directory
   echo "Step 14 (Optional) Rename working directory"
