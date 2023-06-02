@@ -343,6 +343,7 @@ echo -e "\nGit setup Remote VPS Server local repository"
   echo "Step 14 (Optional) Rename working directory"
   # mv -- move (rename) files
   mv '15-dicoding--0401-music-app-v0' '0401-music-app-v0'
+  cd '/home/developer/15-dicoding-back-end-fundamental/0401-music-app-v0/'
 
 # Step 15 (Optional) Pull Git remote repository
   echo "Step 15 (Optional) Pull Git remote repository"
